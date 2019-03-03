@@ -6,7 +6,14 @@
 docker container start -ai <container_name> || <container_id>
 ```
 # <span></span>
+- Start an existing container
 - -ai <container_name> || <conainer_id>, flag is needed to start an existing container
+
+```bash
+docker container exec -it (container_name || container_id) command to run once inside the container, such as bash or sh
+```
+# <span></span>
+- Run additional commands in an existing and running container
 
 ```bash
 docker container run image_name
