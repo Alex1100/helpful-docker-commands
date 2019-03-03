@@ -44,6 +44,18 @@ docker container inspect container_name || container_id
 # <span></span>
 - Show metadata about the container (startup, config, volumes, networking, etc...)
 
+```bash
+docker container stats
+```
+# <span></span>
+- Shows live performance data for all containers
+
+```bash
+docker container stats container_name || container_id
+```
+#<span></span>
+- Show live performance for a specific container
+
 
 <h1>IMAGES</h1>
 
