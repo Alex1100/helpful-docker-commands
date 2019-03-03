@@ -14,11 +14,14 @@ DOCKER COMMANDS TO REMEMBER
 - Arguemtns takin in with this command include:
 - -a to list all containers both stopped and running
 
-# <code>docker container stop <i>image_name or container_id</i></code>
-
 # <code>docker container top <i>image_name or container id</i></code>
-<p>Lets us look at the processes running within a specific container</p>
+- Lets us look at the processes running within a specific container
 
+# <code>docker container stop <i>image_name or container_id</i></code>
+- stops a live container and prepares it to possibly be removed
+
+# <code>docker container remove <i>image_name or container_id</i></code>
+- Removes a container from the network or machine
 
 ## IMAGES
 
