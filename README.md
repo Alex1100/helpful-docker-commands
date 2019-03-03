@@ -1,6 +1,6 @@
 DOCKER COMMANDS TO REMEMBER
 
-## CONTAINERS
+## <p style="color: #1e9ee9">CONTAINERS</p>
 
 # <code>docker container run <i>image_name</i></code>
 - Arguments taken in with this command include:
@@ -23,7 +23,7 @@ DOCKER COMMANDS TO REMEMBER
 # <code>docker container remove <i>image_name or container_id</i></code>
 - Removes a container from the network or machine
 
-## IMAGES
+## <p style="color: #1e9ee9">IMAGES</p>
 
 # <code>docker image ls</code>
 - List out all images found on local machine
