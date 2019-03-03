@@ -38,6 +38,13 @@ docker container remove image_name || container_id
 # <span></span>
 - Removes a container from the network or machine
 
+```bash
+docker container inspect container_name || container_id
+```
+# <span></span>
+- Show metadata about the container (startup, config, volumes, networking, etc...)
+
+
 <h1>IMAGES</h1>
 
 ```bash
