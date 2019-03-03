@@ -3,7 +3,7 @@ DOCKER COMMANDS TO REMEMBER
 ## CONTAINERS
 
 # <code>docker container run <i>image_name</i></code>
-<p>Arguments taken in with this command include:</p>
+- Arguments taken in with this command include:
 - -d (for detaching the container) 
 - --name some_alias 
 - -p port_number i.e 80:80 / 8080:80 / etc...
