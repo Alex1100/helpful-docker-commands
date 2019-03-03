@@ -3,16 +3,24 @@
 <h1>CONTAINERS</h1>
 
 ```bash
+docker container start -ai <container_name> || <container_id>
+```
+# <span></span>
+- -ai <container_name> || <conainer_id>, flag is needed to start an existing container
+
+```bash
 docker container run image_name
 ```
 # <span></span>
 - Arguments taken in with this command include:
+- -it provides an interactive shell and psuedo-TTY
 - -d (for detaching the container) 
 - --name some_alias 
 - -p port_number i.e 80:80 / 8080:80 / etc...
 - -e environment variables
 - image name to run / or pull if not found locally then to be ran. i.e httpd
-
+- flags after the image name include:
+    1. bash -> if run with -it, it will give you a terminal inside the running container
 ```bash
 docker container ps || docker container ls
 ```
