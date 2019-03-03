@@ -11,7 +11,7 @@ DOCKER COMMANDS TO REMEMBER
 - image name to run / or pull if not found locally then to be ran. i.e httpd
 
 # <code>docker container ps</code> or <code>docker container ls</code>
-<p>Arguemtns takin in with this command include:</p>
+- Arguemtns takin in with this command include:
 - -a to list all containers both stopped and running
 
 # <code>docker container stop <i>image_name or container_id</i></code>
@@ -23,4 +23,4 @@ DOCKER COMMANDS TO REMEMBER
 ## IMAGES
 
 # <code>docker image ls</code>
-<p>List out all images found on local machine</p>
+- List out all images found on local machine
