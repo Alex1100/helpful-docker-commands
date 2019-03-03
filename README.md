@@ -1,11 +1,11 @@
 # DOCKER COMMANDS TO REMEMBER
 
-```html
-<h1 style="color: #1e9ee9">CONTAINERS</h1>
+```diff
++ CONTAINERS
 ```
 
-```html
-docker container run <i>image_name</i></code>
+```bash
+docker container run image_name
 ```
 - Arguments taken in with this command include:
 - -d (for detaching the container) 
@@ -14,32 +14,32 @@ docker container run <i>image_name</i></code>
 - -e environment variables
 - image name to run / or pull if not found locally then to be ran. i.e httpd
 
-```html
-<code>docker container ps</code> or <code>docker container ls</code>
+```bash
+docker container ps or docker container ls
 ```
-- Arguemtns takin in with this command include:
+- Arguments takin in with this command include:
 - -a to list all containers both stopped and running
 
-```html
-<code>docker container top <i>image_name or container id</i></code>
+```bash
+docker container top image_name or container id
 ```
 - Lets us look at the processes running within a specific container
 
-```html
-<code>docker container stop <i>image_name or container_id</i></code>
+```bash
+docker container stop image_name or container_id
 ```
 - stops a live container and prepares it to possibly be removed
 
-```html
-<code>docker container remove <i>image_name or container_id</i></code>
+```bash
+docker container remove image_name or container_id
 ```
 - Removes a container from the network or machine
 
-```html
-<h1 style="color: #1e9ee9">IMAGES</h1>
+```diff
++ IMAGES
 ```
 
-```html
-<code>docker image ls</code>
+```bash
+docker image ls
 ```
 - List out all images found on local machine
